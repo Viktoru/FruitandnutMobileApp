@@ -8,5 +8,6 @@ The Fruit and Nut Cultivars Database (FNCD). IOS and Android
 ## Prerequisites
 
 - Flutter
+- Dart
 - JSON
 - Android Studio
