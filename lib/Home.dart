@@ -146,7 +146,7 @@ class _ExamplePageState extends State<ExamplePage> {
     }
 
     void _getNames() async {
-        final response = await dio.get('http://www.fruitandnutlist.org/data/json');
+        final response = await dio.get('../data/json');
         if (response.statusCode == 200) {
             setState(() {
                 _isLoading = false;
